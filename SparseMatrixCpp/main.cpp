@@ -47,7 +47,7 @@ int main()
 			break;
 		case 2:
 			SortingColumnWise(M1, sm1);
-			"Sorted sparse matrix by columns and rows.\n";
+			std::cout << "Sorted sparse matrix by columns and rows.\n";
 			PrintSparseMatrix(M1, sm1);
 
 			isSorted = 1;
